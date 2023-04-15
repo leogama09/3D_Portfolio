@@ -19,7 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
+    pokemon,
     jobit,
     tripguide,
     threejs,
@@ -30,10 +30,10 @@ import {
       id: "about",
       title: "About",
     },
-    {
-      id: "work",
-      title: "Work",
-    },
+    // {
+    //   id: "work",
+    //   title: "Work",
+    // },
     {
       id: "contact",
       title: "Contact",
@@ -46,15 +46,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React.JS Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "PHP Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Certified SCRUM Professional",
       icon: creator,
     },
   ];
@@ -198,25 +198,26 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Pokemon JavaScript Game",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A JavaScript Pokémon Game with HTML Canvas.",
       tags: [
         {
-          name: "react",
+          name: "html5",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css3",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "javascript",
+          color: "yellow-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: pokemon,
+      source_code_link: "https://github.com/leogama09/Pokemon-JavaScript-Game",
+      deployed_link: "https://pokemon-java-script-game.vercel.app/"
     },
     {
       name: "Job IT",
