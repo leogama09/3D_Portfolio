@@ -22,8 +22,8 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            <span className="sm:block hidden">
-              Leonardo Gama &nbsp;
+            Leonardo Gama <span className="sm:block hidden">
+              {/* put any title here, ex: "React.JS Mastery" */} &nbsp;
             </span>
           </p>
         </Link>
