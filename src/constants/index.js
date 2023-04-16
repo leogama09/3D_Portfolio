@@ -103,10 +103,7 @@ import {
       name: "Redux Toolkit",
       icon: redux,
     },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+    
     {
       name: "Node JS",
       icon: nodejs,
@@ -116,16 +113,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "bootstrap",
@@ -138,10 +127,6 @@ import {
     {
       name: "php",
       icon: php,
-    },
-    {
-      name: "postman",
-      icon: postman,
     },
     {
       name: "sass",
