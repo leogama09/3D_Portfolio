@@ -16,11 +16,12 @@ const Hero = () => {
           >Hi, I'm <span className="text-[#915eff]">Leonardo!</span>
           </h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-           I develop full-stack {/*<br className="sm:block hidden" />*/}web applications
+           I develop full-stack <br className="sm:block hidden" />web applications
         </p>
         </div>
-
-        <ComputersCanvas />
+      </div>
+      
+      <ComputersCanvas />
 
         <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
           <a href="#about">
@@ -38,7 +39,6 @@ const Hero = () => {
             </div>
           </a>
         </div>
-      </div>
     </section>
   )
 }
