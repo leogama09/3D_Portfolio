@@ -6,6 +6,11 @@ import {
     javascript,
     typescript,
     html,
+    bootstrap,
+    nextjs,
+    php,
+    postman,
+    sass,
     css,
     reactjs,
     redux,
@@ -123,8 +128,24 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "bootstrap",
+      icon: bootstrap,
+    },
+    {
+      name: "nextjs",
+      icon: nextjs,
+    },
+    {
+      name: "php",
+      icon: php,
+    },
+    {
+      name: "postman",
+      icon: postman,
+    },
+    {
+      name: "sass",
+      icon: sass,
     },
   ];
   
