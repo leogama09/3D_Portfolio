@@ -28,6 +28,20 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import pokemon from "./pokemon.png"
+import php_blog from "./php_blog.png"
+import weather from "./weather.png"
+import fighting from "./fighting.png"
+import pokenext from "./pokenext.png"
+import secret_word from "./secret word.jpg"
+import finder from "./finder.png"
+import crud from "./crud.jpg"
+import quiz from "./quiz.png"
+import crypto from "./crypto.png"
+import todo from "./react-ts-todolist.png"
+import drumkit from "./drumkit.jpg"
+import countdown from "./countdown.jpg"
+import slideshow from "./slideshow.jpg"
+import iphone from "./iphone.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -59,6 +73,20 @@ export {
   starbucks,
   tesla,
   pokemon,
+  php_blog,
+  weather,
+  fighting,
+  pokenext,
+  secret_word,
+  finder,
+  crud,
+  quiz,
+  crypto,
+  todo,
+  drumkit,
+  countdown,
+  slideshow,
+  iphone,
   jobit,
   tripguide,
 };

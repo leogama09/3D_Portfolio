@@ -20,6 +20,20 @@ import {
     tesla,
     shopify,
     pokemon,
+    php_blog,
+    weather,
+    fighting,
+    pokenext,
+    secret_word,
+    finder,
+    crud,
+    quiz,
+    crypto,
+    todo,
+    drumkit,
+    countdown,
+    slideshow,
+    iphone,
     jobit,
     tripguide,
     threejs,
@@ -198,7 +212,7 @@ import {
   
   const projects = [
     {
-      name: "Pokemon JavaScript Game",
+      name: "Pokemon Game",
       description:
         "A JavaScript Pokémon Game with HTML Canvas.",
       tags: [
@@ -220,46 +234,266 @@ import {
       deployed_link: "https://pokemon-java-script-game.vercel.app/"
     },
     {
-      name: "Job IT",
+      name: "PHP Blog",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A blog for developers built on PHP. Discover new PHP articles!",
       tags: [
         {
-          name: "react",
+          name: "php",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "css3",
+          color: "blue-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: php_blog,
+      source_code_link: "https://github.com/leogama09/PHP_Blog",
+      deployed_link: "http://phpbloggama.000webhostapp.com//"
     },
     {
-      name: "Trip Guide",
+      name: "Weather App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Weather app built on HTML, CSS & JS. Enter your location and get the weather information!",
+      tags: [
+        {
+          name: "html5",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "api",
+          color: "green-text-gradient",
+        },
+      ],
+      image: weather,
+      source_code_link: "https://github.com/leogama09/weather-app",
+      deployed_link: "https://leogama09.github.io/weather-app/"
+    },
+    {
+      name: "Fighting Game",
+      description:
+      "A JavaScript Fighting Game with HTML Canvas. Fight against a friend!",
+      tags: [
+        {
+          name: "html5",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: fighting,
+      source_code_link: "https://github.com/leogama09/JavaScript-Fighting-Game",
+      deployed_link: "https://java-script-fighting-game.vercel.app/"
+    },
+    {
+      name: "PokeNext",
+      description:
+      "PokeNext is an App built on Next.js to query Pokemons.",
       tags: [
         {
           name: "nextjs",
+          color: "green-pink-text-gradient",
+        },
+        {
+          name: "css3",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "javascript",
+          color: "yellow-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "api",
+          color: "green-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: pokenext,
+      source_code_link: "https://github.com/leogama09/PokeNext",
+      deployed_link: "https://pokenext-leogama09.vercel.app/"
+    },
+    {
+      name: "Secret Word",
+      description:
+      "A game that consists about guessing the word! Build on React.JS",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: secret_word,
+      source_code_link: "https://github.com/leogama09/secret-word-project",
+      deployed_link: "https://leogama09.github.io/secret-word-project/"
+    },
+    {
+      name: "GitHub API",
+      description:
+      "A GitHub API built on React.JS & Typescript. Search for any user on GitHub!",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "api",
+          color: "green-text-gradient",
+        },
+      ],
+      image: finder,
+      source_code_link: "https://github.com/leogama09/github-api",
+      deployed_link: "https://github-api-leogama09.vercel.app/"
+    },
+    {
+      name: "CRUD",
+      description:
+      "A CRUD built on vanilla JavaScript. Register, read, update or delete your clients information.",
+      tags: [
+        {
+          name: "html5",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: crud,
+      source_code_link: "https://github.com/leogama09/crud-project",
+      deployed_link: "https://leogama09.github.io/crud-project/"
+    },
+    {
+      name: "Programming Quiz",
+      description:
+      "A programming quiz built on React.JS. Challenge yourself with many questions!",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: quiz,
+      source_code_link: "https://github.com/leogama09/React-quiz",
+      deployed_link: "https://react-quiz-one-psi.vercel.app/"
+    },
+    {
+      name: "Crypto Price App",
+      description:
+      "A crypto price app built on JavaScript. Check the latest price of your favorite cryptocoins!",
+      tags: [
+        {
+          name: "html5",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "api",
+          color: "green-text-gradient",
+        },
+      ],
+      image: crypto,
+      source_code_link: "https://github.com/leogama09/crypto-price-app",
+      deployed_link: "https://leogama09.github.io/crypto-price-app/"
+    },
+    {
+      name: "To-do List",
+      description:
+      "A todo list built on React.JS & Typescript. Register your daily tasks!",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: todo,
+      source_code_link: "https://github.com/leogama09/React-TS-Todo-List",
+      deployed_link: "https://react-ts-todo-list-xi.vercel.app/"
+    },
+    {
+      name: "Slideshow",
+      description:
+      "A slideshow with the best anime built on vanilla JavaScript.",
+      tags: [
+        {
+          name: "html5",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: slideshow,
+      source_code_link: "https://github.com/leogama09/slideshow-project",
+      deployed_link: "https://leogama09.github.io/slideshow-project/"
     },
   ];
   
