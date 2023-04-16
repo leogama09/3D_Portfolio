@@ -220,7 +220,7 @@ import {
     {
       name: "Pokemon Game",
       description:
-        "A JavaScript Pokémon Game with HTML Canvas.",
+        "A JavaScript Pokémon Game with HTML Canvas. Explore and battle!",
       tags: [
         {
           name: "html5",
