@@ -334,7 +334,7 @@ import {
     {
       name: "Secret Word",
       description:
-      "A game that consists about guessing the word! Build on React.JS",
+      "A game that consists about guessing the word! Built on React.JS",
       tags: [
         {
           name: "reactjs",
