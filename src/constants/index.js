@@ -218,6 +218,106 @@ import {
   
   const projects = [
     {
+      name: "Secret Word",
+      description:
+      "A game that consists about guessing the word! Built on React.JS",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: secret_word,
+      source_code_link: "https://github.com/leogama09/secret-word-project",
+      deployed_link: "https://leogama09.github.io/secret-word-project/"
+    },
+    {
+      name: "To-do List",
+      description:
+      "A todo list built on React.JS & Typescript. Register your daily tasks!",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: todo,
+      source_code_link: "https://github.com/leogama09/React-TS-Todo-List",
+      deployed_link: "https://react-ts-todo-list-xi.vercel.app/"
+    },
+    {
+      name: "GitHub API",
+      description:
+      "A GitHub API built on React.JS & Typescript. Search for any user on GitHub!",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "api",
+          color: "green-text-gradient",
+        },
+      ],
+      image: finder,
+      source_code_link: "https://github.com/leogama09/github-api",
+      deployed_link: "https://github-api-leogama09.vercel.app/"
+    },
+    {
+      name: "Programming Quiz",
+      description:
+      "A programming quiz built on React.JS. Challenge yourself with many questions!",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: quiz,
+      source_code_link: "https://github.com/leogama09/React-quiz",
+      deployed_link: "https://react-quiz-one-psi.vercel.app/"
+    },
+    {
       name: "Pokemon Game",
       description:
         "A JavaScript Pokémon Game with HTML Canvas. Explore and battle!",
@@ -332,58 +432,6 @@ import {
       deployed_link: "https://pokenext-leogama09.vercel.app/"
     },
     {
-      name: "Secret Word",
-      description:
-      "A game that consists about guessing the word! Built on React.JS",
-      tags: [
-        {
-          name: "reactjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css3",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "yellow-text-gradient",
-        },
-      ],
-      image: secret_word,
-      source_code_link: "https://github.com/leogama09/secret-word-project",
-      deployed_link: "https://leogama09.github.io/secret-word-project/"
-    },
-    {
-      name: "GitHub API",
-      description:
-      "A GitHub API built on React.JS & Typescript. Search for any user on GitHub!",
-      tags: [
-        {
-          name: "reactjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "typescript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css3",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "api",
-          color: "green-text-gradient",
-        },
-      ],
-      image: finder,
-      source_code_link: "https://github.com/leogama09/github-api",
-      deployed_link: "https://github-api-leogama09.vercel.app/"
-    },
-    {
       name: "CRUD",
       description:
       "A CRUD built on vanilla JavaScript. Register, read, update or delete your clients information.",
@@ -404,28 +452,6 @@ import {
       image: crud,
       source_code_link: "https://github.com/leogama09/crud-project",
       deployed_link: "https://leogama09.github.io/crud-project/"
-    },
-    {
-      name: "Programming Quiz",
-      description:
-      "A programming quiz built on React.JS. Challenge yourself with many questions!",
-      tags: [
-        {
-          name: "reactjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css3",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "yellow-text-gradient",
-        },
-      ],
-      image: quiz,
-      source_code_link: "https://github.com/leogama09/React-quiz",
-      deployed_link: "https://react-quiz-one-psi.vercel.app/"
     },
     {
       name: "Crypto Price App",
@@ -452,32 +478,6 @@ import {
       image: crypto,
       source_code_link: "https://github.com/leogama09/crypto-price-app",
       deployed_link: "https://leogama09.github.io/crypto-price-app/"
-    },
-    {
-      name: "To-do List",
-      description:
-      "A todo list built on React.JS & Typescript. Register your daily tasks!",
-      tags: [
-        {
-          name: "reactjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "typescript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css3",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "yellow-text-gradient",
-        },
-      ],
-      image: todo,
-      source_code_link: "https://github.com/leogama09/React-TS-Todo-List",
-      deployed_link: "https://react-ts-todo-list-xi.vercel.app/"
     },
     {
       name: "Slideshow",
