@@ -39,6 +39,7 @@ import {
     countdown,
     slideshow,
     iphone,
+    homes,
     jobit,
     tripguide,
     threejs,
@@ -217,6 +218,32 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Real Estate",
+      description:
+      "A responsible Real Estate website built on React.js using React hooks, modern CSS, framer-motion, Swiper.js, etc.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "html5",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: homes,
+      source_code_link: "https://github.com/leogama09/react-homes",
+      deployed_link: "https://react-homes.vercel.app/"
+    },
     {
       name: "Secret Word",
       description:
@@ -478,28 +505,6 @@ import {
       image: crypto,
       source_code_link: "https://github.com/leogama09/crypto-price-app",
       deployed_link: "https://leogama09.github.io/crypto-price-app/"
-    },
-    {
-      name: "Slideshow",
-      description:
-      "A slideshow with the best anime built on vanilla JavaScript.",
-      tags: [
-        {
-          name: "html5",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "css3",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "yellow-text-gradient",
-        },
-      ],
-      image: slideshow,
-      source_code_link: "https://github.com/leogama09/slideshow-project",
-      deployed_link: "https://leogama09.github.io/slideshow-project/"
     },
   ];
   

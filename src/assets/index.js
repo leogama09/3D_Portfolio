@@ -47,6 +47,7 @@ import drumkit from "./drumkit.jpg"
 import countdown from "./countdown.jpg"
 import slideshow from "./slideshow.jpg"
 import iphone from "./iphone.png"
+import homes from "./homes.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -97,6 +98,7 @@ export {
   countdown,
   slideshow,
   iphone,
+  homes,
   jobit,
   tripguide,
 };
