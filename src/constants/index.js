@@ -40,6 +40,7 @@ import {
     slideshow,
     iphone,
     homes,
+    ecommerce,
     jobit,
     tripguide,
     threejs,
@@ -243,6 +244,32 @@ import {
       image: homes,
       source_code_link: "https://github.com/leogama09/react-homes",
       deployed_link: "https://react-homes.vercel.app/"
+    },
+    {
+      name: "E-commerce",
+      description:
+      "A responsible E-commerce website built on React.js using React hooks, modern CSS, framer-motion, Swiper.js, etc.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "html5",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: ecommerce,
+      source_code_link: "https://github.com/leogama09/react-ecommerce",
+      deployed_link: "https://react-ecommerce-gray.vercel.app/"
     },
     {
       name: "Secret Word",
@@ -457,28 +484,6 @@ import {
       image: pokenext,
       source_code_link: "https://github.com/leogama09/PokeNext",
       deployed_link: "https://pokenext-leogama09.vercel.app/"
-    },
-    {
-      name: "CRUD",
-      description:
-      "A CRUD built on vanilla JavaScript. Register, read, update or delete your clients information.",
-      tags: [
-        {
-          name: "html5",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "css3",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "yellow-text-gradient",
-        },
-      ],
-      image: crud,
-      source_code_link: "https://github.com/leogama09/crud-project",
-      deployed_link: "https://leogama09.github.io/crud-project/"
     },
     {
       name: "Crypto Price App",

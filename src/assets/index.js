@@ -48,6 +48,7 @@ import countdown from "./countdown.jpg"
 import slideshow from "./slideshow.jpg"
 import iphone from "./iphone.png"
 import homes from "./homes.png"
+import ecommerce from "./ecommerce.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -99,6 +100,7 @@ export {
   slideshow,
   iphone,
   homes,
+  ecommerce,
   jobit,
   tripguide,
 };
