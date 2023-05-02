@@ -49,6 +49,7 @@ import slideshow from "./slideshow.jpg"
 import iphone from "./iphone.png"
 import homes from "./homes.png"
 import ecommerce from "./ecommerce.png"
+import fit from "./fit.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -101,6 +102,7 @@ export {
   iphone,
   homes,
   ecommerce,
+  fit,
   jobit,
   tripguide,
 };

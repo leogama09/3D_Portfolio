@@ -41,6 +41,7 @@ import {
     iphone,
     homes,
     ecommerce,
+    fit,
     jobit,
     tripguide,
     threejs,
@@ -272,6 +273,32 @@ import {
       deployed_link: "https://react-ecommerce-gray.vercel.app/"
     },
     {
+      name: "Fit Club",
+      description:
+      "A responsible gym website built on React.js using React hooks, modern CSS, framer-motion, Swiper.js, etc.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "html5",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: fit,
+      source_code_link: "https://github.com/leogama09/react-ecommerce",
+      deployed_link: "https://react-fitclub.vercel.app/"
+    },
+    {
       name: "Secret Word",
       description:
       "A game that consists about guessing the word! Built on React.JS",
@@ -484,32 +511,6 @@ import {
       image: pokenext,
       source_code_link: "https://github.com/leogama09/PokeNext",
       deployed_link: "https://pokenext-leogama09.vercel.app/"
-    },
-    {
-      name: "Crypto Price App",
-      description:
-      "A crypto price app built on JavaScript. Check the latest price of your favorite cryptocoins!",
-      tags: [
-        {
-          name: "html5",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "css3",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "api",
-          color: "green-text-gradient",
-        },
-      ],
-      image: crypto,
-      source_code_link: "https://github.com/leogama09/crypto-price-app",
-      deployed_link: "https://leogama09.github.io/crypto-price-app/"
     },
   ];
   
