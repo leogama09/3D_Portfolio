@@ -42,6 +42,7 @@ import {
     homes,
     ecommerce,
     fit,
+    chatgpt,
     jobit,
     tripguide,
     threejs,
@@ -221,6 +222,32 @@ import {
   
   const projects = [
     {
+      name: "Fit Club",
+      description:
+      "A responsible gym website built on React.js using React hooks, modern CSS, framer-motion, Swiper.js, etc.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "html5",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: fit,
+      source_code_link: "https://github.com/leogama09/react-fitclub",
+      deployed_link: "https://react-fitclub.vercel.app/"
+    },
+    {
       name: "Real Estate",
       description:
       "A responsible Real Estate website built on React.js using React hooks, modern CSS, framer-motion, Swiper.js, etc.",
@@ -273,16 +300,16 @@ import {
       deployed_link: "https://react-ecommerce-gray.vercel.app/"
     },
     {
-      name: "Fit Club",
+      name: "ChatGPT 2.0",
       description:
-      "A responsible gym website built on React.js using React hooks, modern CSS, framer-motion, Swiper.js, etc.",
+      "A responsible ChatGPT 2.0 using Open AI Api. I also used React hooks, tailwindcss, TanStack & auto-animate.",
       tags: [
         {
           name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "css3",
+          name: "tailwind",
           color: "blue-text-gradient",
         },
         {
@@ -294,9 +321,9 @@ import {
           color: "orange-text-gradient",
         },
       ],
-      image: fit,
-      source_code_link: "https://github.com/leogama09/react-ecommerce",
-      deployed_link: "https://react-fitclub.vercel.app/"
+      image: chatgpt,
+      source_code_link: "https://github.com/leogama09/react-gpt-client",
+      deployed_link: "https://react-gpt-client.vercel.app/"
     },
     {
       name: "Secret Word",
@@ -437,32 +464,6 @@ import {
       image: php_blog,
       source_code_link: "https://github.com/leogama09/PHP_Blog",
       deployed_link: "http://phpbloggama.000webhostapp.com//"
-    },
-    {
-      name: "Weather App",
-      description:
-      "Weather app built on HTML, CSS & JS. Enter your location and get the weather information!",
-      tags: [
-        {
-          name: "html5",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "css3",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "api",
-          color: "green-text-gradient",
-        },
-      ],
-      image: weather,
-      source_code_link: "https://github.com/leogama09/weather-app",
-      deployed_link: "https://leogama09.github.io/weather-app/"
     },
     {
       name: "Fighting Game",

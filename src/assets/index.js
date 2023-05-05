@@ -50,6 +50,7 @@ import iphone from "./iphone.png"
 import homes from "./homes.png"
 import ecommerce from "./ecommerce.png"
 import fit from "./fit.png"
+import chatgpt from "./chatgpt.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -103,6 +104,7 @@ export {
   homes,
   ecommerce,
   fit,
+  chatgpt,
   jobit,
   tripguide,
 };
