@@ -41,6 +41,7 @@ import {
     iphone,
     homes,
     ecommerce,
+    dashboard,
     fit,
     chatgpt,
     jobit,
@@ -121,8 +122,8 @@ import {
       icon: git,
     },
     {
-      name: "bootstrap",
-      icon: bootstrap,
+      name: "tailwind",
+      icon: tailwind,
     },
     {
       name: "nextjs",
@@ -274,9 +275,9 @@ import {
       deployed_link: "https://react-homes.vercel.app/"
     },
     {
-      name: "E-commerce",
+      name: "Admin Dashboard",
       description:
-      "A responsible E-commerce website built on React.js using React hooks, modern CSS, framer-motion, Swiper.js, etc.",
+      "A user-friendly UI built on React.js using React hooks, calendars, charts, kanban boards & tables.",
       tags: [
         {
           name: "reactjs",
@@ -295,9 +296,9 @@ import {
           color: "orange-text-gradient",
         },
       ],
-      image: ecommerce,
-      source_code_link: "https://github.com/leogama09/react-ecommerce",
-      deployed_link: "https://react-ecommerce-gray.vercel.app/"
+      image: dashboard,
+      source_code_link: "https://github.com/leogama09/dashboard",
+      deployed_link: "https://dashboard-bay-beta.vercel.app/"
     },
     {
       name: "ChatGPT 2.0",

@@ -49,6 +49,7 @@ import slideshow from "./slideshow.jpg"
 import iphone from "./iphone.png"
 import homes from "./homes.png"
 import ecommerce from "./ecommerce.png"
+import dashboard from "./dashboard.png"
 import fit from "./fit.png"
 import chatgpt from "./chatgpt.png"
 import jobit from "./jobit.png";
@@ -103,6 +104,7 @@ export {
   iphone,
   homes,
   ecommerce,
+  dashboard,
   fit,
   chatgpt,
   jobit,
